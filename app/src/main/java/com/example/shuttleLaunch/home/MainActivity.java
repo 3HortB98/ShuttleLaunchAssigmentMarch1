@@ -108,4 +108,10 @@ public class MainActivity extends AppCompatActivity implements HomeContract.View
 
         return true;
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+
+        super.onSaveInstanceState(outState);
+    }
 }
